@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.cliommit.com/sitemap.xml
+Host: https://www.cliommit.com
