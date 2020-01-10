@@ -6,7 +6,6 @@ body {
   height: 100%;
   background: url("../images/trees.jpg") center center;
   background: #c9d6ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #e2e2e2,
@@ -15,7 +14,9 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-family: "museo-slab", arial, sans-serif;
+  line-height: 23px;
 }
 
 h1,
@@ -39,11 +40,11 @@ h6 {
 }
 
 header {
-  padding-left: 0rem;
+  padding-left: 0;
   padding-right: 3rem;
   padding-top: 0.2rem;
   font-family: "Ubuntu", sans-serif;
-  width: 100%auto;
+  width: 100%;
   color: #49ccd5;
   font-weight: 800;
   font-style: bold;
@@ -63,9 +64,6 @@ header {
   display: grid;
   align-content: flex-end;
   overflow: hidden;
-}
-
-#iphone {
   animation: free_iphonex_mochup 2s normal ease-out;
 }
 
@@ -73,22 +71,16 @@ header {
   0% {
     top: 500px;
   }
-  100% {
-    top: 0px;
-  }
-}
 
-body {
-  font-size: 2em;
-  line-height: 18px;
-  font-family: "museo-slab", arial, sans-serif;
-  line-height: 23px;
+  100% {
+    top: 0;
+  }
 }
 
 h4 {
   float: left;
   padding-right: 3rem;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 40rem;
   color: #49ccd5;
   font-weight: 200;
